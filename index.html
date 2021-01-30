@@ -12,15 +12,28 @@
     <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
 
-    <script>
-      //Your web app's Firebase configuration
-      
-      // // Initialize Firebase
-      // firebase.initializeApp(firebaseConfig);
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-database.js"></script>
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    </script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBwFjjlMkjWCJZ6y9vIozxEfNUn-TF9EXw",
+    authDomain: "marked-car-d6878.firebaseapp.com",
+    databaseURL: "https://marked-car-d6878-default-rtdb.firebaseio.com",
+    projectId: "marked-car-d6878",
+    storageBucket: "marked-car-d6878.appspot.com",
+    messagingSenderId: "750123399610",
+    appId: "1:750123399610:web:ada1910c7d32d9e6c94583"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+      
 
     <script src="js/Player.js"></script>
     <script src="js/Form.js"></script>
